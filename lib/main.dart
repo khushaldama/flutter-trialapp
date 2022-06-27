@@ -18,6 +18,7 @@ class HomePage extends StatelessWidget {
           title: Text("Flutter App"),
         ),
         body: Container(
+          //this the specific containe for the height and width
           width: MediaQuery.of(context).size.width,
           height: MediaQuery.of(context).size.height,
           child: Row(
